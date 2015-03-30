@@ -48,7 +48,7 @@ Advanced Installation
 
 This will give you an installation of QGIS that is effectively identical to the Basic Installation.
 
-You'll note that you also have a new shortcut in your start menue for the "OSGeo4W Setup". If you open this you'll be able to add or remove individual features. There will also be shortcuts for uDIG (another light weight open source GIS desktop application)
+You'll note that you also have a new shortcut in your start menu for the "OSGeo4W Setup". If you open this you'll be able to add or remove individual features. There will also be shortcuts for uDIG (another light weight open source GIS desktop application)
 
 Adding File Geodatabase Access
 ++++++++++++++++++++++++++++++
