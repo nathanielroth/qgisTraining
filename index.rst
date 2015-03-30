@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to QGIS Tutorials's documentation!
-==========================================
+Welcome to Nate's QGIS Tutorial!
+================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+   
+   installation
+   basics
+   projections
+   tables
+   editing
+   geoprocessing
+   rasters
+   resources
 
 
 
