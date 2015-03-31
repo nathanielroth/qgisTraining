@@ -50,7 +50,12 @@ And click OK to view the results.
 Geometry Editing
 ----------------
 
-**Splitting a Feature**
+Editing geometries should be similar to what you're accustomed to. The feature templates that are available in ArcGIS aren't present in QGIS, but the basic editing tools are available, and highly functional.
+
+Snapping controls are available through the **Settings** menu.
+
+Splitting a Feature
++++++++++++++++++++
 
 First toggle editing on using the pencil icon on the editing toolbar. You'll see the vertexes highlighted.
 
@@ -59,5 +64,34 @@ First toggle editing on using the pencil icon on the editing toolbar. You'll see
 Then select the parcel that you wish to split using the standard selection tools.
 
 .. image:: graphics/Editing_Geom_02.png
+
+Turn on the Advanced Digitizing toolbar by right clicking in an open space near the menu and turning it's check box on.
+
+Then select the split feature tool. And click to create the line that splits the polygon the way you want to. 
+
+.. image:: graphics/Editing_Geom_03.png
+
+And right click to finish the split.
+
+.. image:: graphics/Editing_Geom_04.png
+
+Adding a new feature
+++++++++++++++++++++
+
+Navigate to a location where you can add the a new polygon.
+
+Select the "Add Feature" tool from the "Digitizing" toolbar. Then you can draw in the polygon you want by clicking on each vertex.
+
+.. image:: graphics/Editing_Geom_05.png
+
+Right click to finish the feature and fill in any attributes you need to.
+
+.. image:: graphics/Editing_Geom_06.png
+
+Finishing the Edits
++++++++++++++++++++
+
+Save the edits and turn off editing to save your edits fully.
+
 
 
