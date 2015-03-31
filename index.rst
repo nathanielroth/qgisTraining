@@ -19,7 +19,7 @@ Contents:
    geoprocessing
    rasters
    resources
-   sourcedata
+   sampledata
 
 
 
