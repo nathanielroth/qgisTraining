@@ -106,7 +106,62 @@ And click **OK** again. Then turn the layer on.
 .. image:: graphics/Raster_StyleManager_10.png
 
 
+Raster Math
+-----------
 
+Reclassifying Datasets
+++++++++++++++++++++++
 
+First, we need to create some reclassified rasters from our existing DEM and Slope layers.
+
+I've prepared some reclass text files to help us with this. Download these and put them in the same folder as your sample data.
+
+:download:`DEM Reclass <data/dem_reclass.txt>`
+
+:download:`Slope Reclass <data/slope_reclass.txt>`
+
+Working through the Slope as an example. The DEM will work exactly the same way.
+
+Open the **Processing** menu, and select **Toolbox**
+
+Then at the bottom of the new window that opens select the **Simple interface** and switch it to **Advanced interface.**
+
+.. image:: graphics/Raster_Reclass_01.png
+
+Open the **GRASS commands**, and the **Raster (r.*)** sections and navigate down to **r.reclass**
+
+.. image:: graphics/Raster_Reclass_02.png
+
+.. image:: graphics/Raster_Reclass_03.png
+
+Double click on the tool to open the dialogue. Fill out the settings, making sure to select the correct input layer, reclass file, and set the output file.
+
+.. image:: graphics/Raster_Reclass_04.png
+
+After clicking OK, the process will run and it will be added to the table of contents. Repeat the process for the DEM using the DEM's reclass file.
+
+For convenience, I've renamed the layers to the file name from the default that names that they have when added to the table of contents.
+
+Raster Calculator
++++++++++++++++++
+
+Map Algebra is then very simple. 
+
+Open the **Raster** menu and select **Raster Calculator**
+
+.. image:: graphics/Raster_Calc_01.png
+
+And build your map algebra function and set the output file.
+
+.. image:: graphics/Raster_Calc_02.png
+
+Then change the style on the layer to reflect the resulting classes. I used the **Singleband pseudocolor** renderer and added the values individually.
+
+* 11: Low Slope, Low Elevation
+* 12: Low Slope, High Elevation
+* 21: High Slope, Low Elevation
+* 22: High Slope, High Elevation
+
+.. image:: graphics/Raster_Calc_03.png
 
 
