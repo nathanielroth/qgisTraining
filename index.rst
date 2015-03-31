@@ -6,6 +6,13 @@
 Welcome to Nate's QGIS Tutorial!
 ================================
 
+Please check out the installation and sample data sections for information on getting QGIS installed and a copy of the sample data I'll be using in the workshop.
+
+Thank you,
+
+Nate
+
+
 Contents:
 
 .. toctree::
