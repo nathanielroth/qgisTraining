@@ -46,3 +46,18 @@ And pick the "Natural Breaks" mode on the right side to use the "Jenks" method f
 And click OK to view the results.
 
 .. image:: graphics/Editing_Attributes_07.png
+
+Geometry Editing
+----------------
+
+**Splitting a Feature**
+
+First toggle editing on using the pencil icon on the editing toolbar. You'll see the vertexes highlighted.
+
+.. image:: graphics/Editing_Geom_01.png
+
+Then select the parcel that you wish to split using the standard selection tools.
+
+.. image:: graphics/Editing_Geom_02.png
+
+
