@@ -62,3 +62,19 @@ This process takes a bit longer to run because it's an exponential calculation.
 
 .. image:: graphics/GeoProc_Int_03.png
 
+
+Voronoi Polygons
+----------------
+
+Voronoi Polygons require an ArcGIS advanced license to create. It can be done within QGIS.
+
+The **Voronoi Polygons** tool is in **Vector**, **
+
+.. image:: graphics/GeoProc_Vor_01.png
+
+.. image:: graphics/GeoProc_Vor_02.png
+
+SpatialLite and PostGIS
+-----------------------
+
+One of the really powerful features of QGIS is the ability to link directly to SpatialLite and PostGIS databases. This allows the use of complex spatial queries that may take many steps to complete through the linking of individual Geoprocessing steps. 
