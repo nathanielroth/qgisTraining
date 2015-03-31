@@ -38,9 +38,9 @@ Rasters should be reprojected using the GDAL Warp tools under the *Raster* menu 
 EPSG Codes
 ----------
 
-The website: http://spatialreference.org/ 
+A very useful site: http://spatialreference.org/ 
 
-Commonly used EPSG codes:
+Commonly used EPSG codes: (at least commonly used by me)
 
 * 3857: Web Mercator
 * 4326: WGS84 (Lat-Long)
