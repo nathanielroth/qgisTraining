@@ -52,7 +52,7 @@ Intersect
 
 Intersecting the centroids with the buffers will start to let us know how many parcels have centroids within 1000 feet of the center of each parcel. This would let us calculate a parcel density, and is a technique that I use frequently when doing summaries of land use.
 
-The **Intersect** tool is in **Vector**,**Geoprocessing Tools**
+The **Intersect** tool is in **Vector**, **Geoprocessing Tools**
 
 .. image:: graphics/GeoProc_Int_01.png
 
@@ -68,7 +68,7 @@ Voronoi Polygons
 
 Voronoi Polygons require an ArcGIS advanced license to create. It can be done within QGIS.
 
-The **Voronoi Polygons** tool is in **Vector**, **
+The **Voronoi Polygons** tool is in **Vector**
 
 .. image:: graphics/GeoProc_Vor_01.png
 

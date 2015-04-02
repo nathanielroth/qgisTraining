@@ -98,5 +98,3 @@ Setting the symbols takes some getting used to. You'll need to specify the fill 
 .. image:: graphics/Basic_Layer_03.png
 
 Building color ramps takes an extra step that will be described elsewhere.
-
-There are s
